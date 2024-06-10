@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zI6ZzZqkaAwtUsR5nakEDO0dmAb6+VJ2Tko9uJfPVujBQw4iFKGhn0h1uN2JOX6nT+Wjn/T3GZ5YuBfK3x7OIw==",
+  "success": true,
+  "projectFilePath": "H:\\П50-4-22\\Программирование\\C#\\10.06.2024\\WorrdExcelInterface\\WorrdExcelInterface\\WorrdExcelInterface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timof\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
+    "C:\\Users\\timof\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
+    "C:\\Users\\timof\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

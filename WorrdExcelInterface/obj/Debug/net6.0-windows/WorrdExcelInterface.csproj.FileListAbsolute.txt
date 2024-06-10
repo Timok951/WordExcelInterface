@@ -1,0 +1,5 @@
+H:\П50-4-22\Программирование\C#\10.06.2024\WorrdExcelInterface\WorrdExcelInterface\obj\Debug\net6.0-windows\WorrdExcelInterface.csproj.AssemblyReference.cache
+H:\П50-4-22\Программирование\C#\10.06.2024\WorrdExcelInterface\WorrdExcelInterface\obj\Debug\net6.0-windows\MainWindow.g.cs
+H:\П50-4-22\Программирование\C#\10.06.2024\WorrdExcelInterface\WorrdExcelInterface\obj\Debug\net6.0-windows\Word.g.cs
+H:\П50-4-22\Программирование\C#\10.06.2024\WorrdExcelInterface\WorrdExcelInterface\obj\Debug\net6.0-windows\WorrdExcelInterface_MarkupCompile.cache
+H:\П50-4-22\Программирование\C#\10.06.2024\WorrdExcelInterface\WorrdExcelInterface\obj\Debug\net6.0-windows\WorrdExcelInterface_MarkupCompile.lref
