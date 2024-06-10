@@ -1,0 +1,70 @@
+﻿<Window x:Class="WorrdExcelInterface.MailInterface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorrdExcelInterface"
+        mc:Ignorable="d"
+        Title="MailInterface" Height="491" Width="960">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="111*"/>
+            <RowDefinition Height="79*"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="533*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" Height="88" Width="257" Margin="27,95,0,0" Grid.RowSpan="2">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="To Email" VerticalAlignment="Center" Height="88" Width="247" Grid.Row="2">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Theme" VerticalAlignment="Center" Height="88" Width="247" Grid.Row="3">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Login" VerticalAlignment="Center" Height="88" Width="247">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="513" Height="88" x:Name="From" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="513" Height="88" Grid.Row="1" x:Name="PasswordTextBox" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="513" Height="88" Grid.Row="2" x:Name="To"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="503" Height="88" Grid.Row="3" x:Name="Subject" Margin="74,10,0,0"/>
+        <Button Content="Send Email" HorizontalAlignment="Left" Margin="128,0,0,0" Grid.Row="4" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="780" x:Name="MessageSendButton" Click="MessageSendButton_Click" Height="32"/>
+
+    </Grid>
+</Window>

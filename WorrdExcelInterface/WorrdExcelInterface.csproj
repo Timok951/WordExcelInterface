@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ImapX" Version="2.0.0.18" />
+    <PackageReference Include="MaterialDesignColors" Version="3.0.0" />
     <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Spire.Doc" Version="12.6.1" />
+    <PackageReference Include="Spire.Office" Version="9.5.0" />
+    <PackageReference Include="Spire.XLS" Version="14.5.3" />
   </ItemGroup>
 
 </Project>

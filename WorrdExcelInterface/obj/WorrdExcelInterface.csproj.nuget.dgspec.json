@@ -44,6 +44,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "ImapX": {
+              "target": "Package",
+              "version": "[2.0.0.18, )"
+            },
             "MaterialDesignColors": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -51,6 +55,18 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Spire.Doc": {
+              "target": "Package",
+              "version": "[12.6.1, )"
+            },
+            "Spire.Office": {
+              "target": "Package",
+              "version": "[9.5.0, )"
+            },
+            "Spire.XLS": {
+              "target": "Package",
+              "version": "[14.5.3, )"
             }
           },
           "imports": [

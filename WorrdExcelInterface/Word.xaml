@@ -6,18 +6,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WorrdExcelInterface"
         mc:Ignorable="d"
-        Title="Word" Height="450" Width="800">
+        Title="Word" Height="450" Width="959">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="397*"/>
+            <ColumnDefinition Width="400*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="41*"/>
-            <RowDefinition Height="393*"/>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="281*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+
+
         </Grid.RowDefinitions>
-        <ToolBar Grid.ColumnSpan="2">
+        <ToolBar Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="949" Cursor="">
             <ToolBar>
                 <Button Command="ApplicationCommands.Cut" Content="{materialDesign:PackIcon Kind=ContentCut}"/>
                 <Button Command="ApplicationCommands.Copy" Content="{materialDesign:PackIcon Kind=ContentCopy}"/>
@@ -43,7 +49,7 @@
 
             </ToolBar>
         </ToolBar>
-        <RichTextBox Margin="10,10,10,30" Height="NaN" Width="NaN" Grid.ColumnSpan="2" Grid.Row="1">
+        <RichTextBox AcceptsTab="True" Margin="7,10,10,30" Height="NaN" Width="NaN" Grid.ColumnSpan="2" Grid.Row="1" x:Name="Myrtb" Grid.Column="1">
             <RichTextBox.Resources>
                 <Style TargetType="{x:Type Paragraph}">
                     <Setter Property="Margin" Value="0"/>
@@ -59,5 +65,35 @@
 
 
         </RichTextBox>
+        <Button Content="Send on Email" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"  Height="25" Grid.ColumnSpan="2" Width="629" x:Name="SendEmailWord" Click="SendEmailWord_Click" Grid.Column="1" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.685"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.471"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Save file"  Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="25" Grid.ColumnSpan="2" Width="629" x:Name="SaveFile" Click="SaveFile_Click" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.685"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.471"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Open File"  Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center" Height="25" Grid.ColumnSpan="2" Width="629" x:Name="SaveFile_Copy" Click="OpenFile_Click" Grid.Column="1" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.685"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.471"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Window>
